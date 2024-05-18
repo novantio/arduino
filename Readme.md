@@ -5,6 +5,7 @@ char pinled = 6;
 
 ## setup begin
 ``
+
   void setup(){
     Serial.begin(9600); #initial
     
@@ -12,4 +13,5 @@ char pinled = 6;
     pinMode(pinled,OUTPUT);
     
   }
+
 ``
