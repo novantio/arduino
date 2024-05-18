@@ -1,15 +1,17 @@
 #Arduino simulator 
 software/website : wokwi
 ## initial pin
+```
+//using led
 char pinled = 6;
 
+```
 ## setup begin
 
 ```
   void setup(){
-    Serial.begin(9600); #initial
-    
-    #register pin
+    Serial.begin(9600); //initial
+    //register pin
     pinMode(pinled,OUTPUT);
     
   }
@@ -19,8 +21,8 @@ char pinled = 6;
 ```
 void loop() {
   //turn om
-  digitalWrite(ledred, HIGH);
+  digitalWrite(pinled, HIGH);
   //turn off
-  digitalWrite(ledred, LOW);
+  digitalWrite(pinled, LOW);
 }
 ```
