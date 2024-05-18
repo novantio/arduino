@@ -7,5 +7,9 @@ char pinled = 6;
 ``
   void setup(){
     Serial.begin(9600); #initial
+    
+    #register pin
+    pinMode(pinled,OUTPUT);
+    
   }
 ``
