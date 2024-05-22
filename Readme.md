@@ -55,6 +55,6 @@ void loop() {
 ```
 
 note:
-- analog write for write custom 0-255 , digital write only 0 and 1
-- analog read for read custom 0-255, digital read only 0 and 1
+- `` analogWrite(pin,value) `` for write custom 0-255 , `` digitalWrite(pin,HIGH) `` only 0 and 1, const HIGH==1, LOW==1
+- `` analogRead(pin) `` for read custom 0-255, `` digitalRead(pin) `` only 0 and 1
 - `` Serial.println("printt"); `` for print
